@@ -1,2 +1,2 @@
-# minor-project
-Minor Project on Machine Learning
+# Drowsiness Detection Model
+A Minor Project on Machine Learning
