@@ -3,6 +3,7 @@ from imutils import face_utils
 import imutils
 import dlib
 import cv2
+import os
 
 def eye_aspect_ratio(eye):
 	A = distance.euclidean(eye[1], eye[5])
@@ -14,7 +15,8 @@ def eye_aspect_ratio(eye):
 thresh = 0.25
 frame_check = 20
 detect = dlib.get_frontal_face_detector()
-predict = dlib.shape_predictor(r'C:\Users\lenovo\OneDrive\Documents\Machine Learning A-Z Template Folder\ML  Projects Eudonix\Drowsiness Detection\Drowsiness_Detection-master\shape_predictor_68_face_landmarks.dat')# Dat file is the crux of the code
+predictor_path = os.getcwd() + '/shape_predictor_68_face_landmarks.dat'
+predict = dlib.shape_predictor(predictor_path)# Dat file is the crux of the code
 
 (lStart, lEnd) = face_utils.FACIAL_LANDMARKS_IDXS["left_eye"]
 (rStart, rEnd) = face_utils.FACIAL_LANDMARKS_IDXS["right_eye"]
