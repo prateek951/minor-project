@@ -1,4 +1,4 @@
-# Project Title
+# Drowsiness Detection System - MINOR2K18
 
 Drowsiness Detection System based on Computer Vision Techniques and uses the Viola Joles Classifier. This project is made using various technologies comprising of Computer Vision and Web Development.
 
