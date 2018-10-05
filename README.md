@@ -1,30 +1,44 @@
+# Project Title
 
-# drowzee
-Flask app using opencv for drowsiness detection
+Drowsiness Detection System based on Computer Vision Techniques and uses the Viola Joles Classifier. This project is made using various technologies comprising of Computer Vision and Web Development.
 
-This is built using [miguelgrinberg\'s flask video streaming example](https://github.com/miguelgrinberg/flask-video-streaming/tree/v1).
+## Getting Started
 
-Articles:
+```
+pip install all the relevant packages to start the application in your local environment.
+```
 
-* [video streaming with Flask](http://blog.miguelgrinberg.com/post/video-streaming-with-flask) 
-* follow-up [Flask Video Streaming Revisited](http://blog.miguelgrinberg.com/post/flask-video-streaming-revisited).
+### Prerequisites
 
-## Description
+Things that are required to be installed.
 
-The app will try to detect faces and eyes. If it detects 50 frames of faces with no eyes consecutively, it will play a sound and deduct a score.
+```
+Must have Python 3.6 or above installed on your system enabled with pip. Anaconda distribution will also do however it is not a prerequisite. 
+Install packages using pip install e.g 
+To install dlib, run pip install dlib 
+To install opencv, run pip install opencv-python
+To install immutils, run pip install immutils and so on for other packages 
 
-## Libraries used
+```
 
-Pygame, Flask, PyFladesk, OpenCV and pyinstaller
+## Built With
 
-pyinstaller build command:
+* [Vue.js](https://vuejs.org) - The Progressive Javascript Framework
+* [Flask](http://flask.pocoo.org/) - Python REST-API for serving the model
+* [Python and its libraries](https://www.python.org) - Python and its libraries
 
-    pyinstaller -w --add-data "templates;templates" --add-data "static;static" app.py --path 'C:\Program Files (x86)\Windows Kits\10\Redist\ucrt\DLLs\x64'   
-    
-or if you downloaded the app.spec:
 
-    pyinstaller app.spec
-      
-## References: 
+## Authors
 
-[Face Detection using Haar Cascades - OpenCV tutorial](https://docs.opencv.org/3.3.0/d7/d8b/tutorial_py_face_detection.html)
+* **Prateek Madaan** - *Initial work* - [prateek951](https://github.com/prateek951)
+* **Mukul Agrawal** - *Initial work* - [Mukul001](https://github.com/Mukul001)
+* **Deepak Tripathi** - *Initial work* - [deepaktripathi1997](https://github.com/deepaktripathi1997)
+* **Navneet Juneja** - *Initial work* - [navneetjuneja26](https://github.com/navneetjuneja26)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Thanks to the StackOverflow Community for providing necessary help whenever we got stuck
