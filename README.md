@@ -23,7 +23,6 @@ To install immutils, run pip install immutils and so on for other packages
 
 ## Built With
 
-* [Vue.js](https://vuejs.org) - The Progressive Javascript Framework
 * [Flask](http://flask.pocoo.org/) - Python REST-API for serving the model
 * [Python and its libraries](https://www.python.org) - Python and its libraries
 
